@@ -1,4 +1,14 @@
 {
   "promptDelete": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "strictLineBreaks": true,
+  "propertiesInDocument": "source",
+  "tabSize": 3,
+  "vimMode": false,
+  "showUnsupportedFiles": false,
+  "uriCallbacks": true,
+  "defaultViewMode": "preview",
+  "livePreview": false,
+  "showLineNumber": true,
+  "attachmentFolderPath": "./"
 }

@@ -1,129 +1,71 @@
-```nodeflow-list
-- nodes
-  - wa:WhatsApp Business API
-    - webhook_trigger, o
-    - credentials, i
-  - tg:Telegram Bot API
-    - webhook_trigger, o
-    - token, i
-  - wa_web:Webhook Endpoint (/webhook/whatsapp)
-    - receive_message, i
-    - parse_payload, o
-  - tg_web:Webhook Endpoint (/webhook/telegram)
-    - receive_message, i
-    - parse_payload, o
-  - queue:Fila de Processamento (RabbitMQ/Redis)
-    - enqueue, i
-    - async_dispatch, o
-  - processor:Processador de Mensagens
-    - process_message, i
-    - validation, o
-  - auth:Autenticação & Autorização (Hono + RLS - Supabase)
-    - token_validation, i
-    - permission_check, o
-    - control_after_process,, secure
-  - analytics:Analytics / Trackers
-    - record_event, i
-    - store_data, o
-    - tracker_type,, custom
-  - crm:Leads / Project Manager
-    - manage_leads, i
-    - synchronize, o
-    - priority,, high
-  - chat:Chat ao Vivo
-    - real_time_chat, i
-    - message_routing, o
-    - queueing,, active
-- edges
-  - wa,webhook_trigger, wa_web,receive_message
-  - tg,webhook_trigger, tg_web,receive_message
-  - wa_web,parse_payload, queue,enqueue
-  - tg_web,parse_payload, queue,enqueue
-  - queue,async_dispatch, processor,process_message
-  - processor,validation, auth,token_validation
-  - auth,permission_check, analytics,record_event
-  - auth,permission_check, crm,manage_leads
-  - auth,permission_check, chat,real_time_chat
-
-```
-
-
-```nodeflow-list
-- nodes
-  - organizacoes:Organizações
-    - id, o
-    - nome, i
-    - created_at, i
-    - updated_at, i
-  - usuarios:Usuários
-    - id, o
-    - organizacao_id, i
-    - nome, i
-    - email, i
-    - senha_hash, i
-    - role, i
-    - created_at, i
-  - equipes:Equipes
-    - id, o
-    - organizacao_id, i
-    - nome, i
-    - descricao, i
-    - created_at, i
-  - mensagens:Mensagens
-    - id, o
-    - organizacao_id, i
-    - usuario_id, i
-    - canal, i
-    - conteudo, i
-    - enviado_em, i
-  - canais:Canais de Comunicação
-    - id, o
-    - organizacao_id, i
-    - tipo, i
-    - configuracao, i
-    - ativo, i
-  - analytics:Eventos Analytics
-    - id, o
-    - organizacao_id, i
-    - usuario_id, i
-    - evento, i
-    - metadata, i
-    - registrado_em, i
-  - leads:Leads
-    - id, o
-    - organizacao_id, i
-    - nome, i
-    - email, i
-    - origem, i
-    - status, i
-    - criado_em, i
-  - projetos:Gerenciamento de Projetos
-    - id, o
-    - organizacao_id, i
-    - nome, i
-    - descricao, i
-    - status, i
-    - deadline, i
-    - responsavel_id, i
-  - chat:Chat ao Vivo
-    - id, o
-    - organizacao_id, i
-    - usuario_id, i
-    - mensagem, i
-    - enviado_em, i
-- edges
-  - organizacoes,id, usuarios, organizacao_id
-  - organizacoes,id, equipes, organizacao_id
-  - organizacoes,id, mensagens, organizacao_id
-  - organizacoes,id, canais, organizacao_id
-  - organizacoes,id, analytics, organizacao_id
-  - organizacoes,id, leads, organizacao_id
-  - organizacoes,id, projetos, organizacao_id
-  - organizacoes,id, chat, organizacao_id
-  - usuarios,id, mensagens, usuario_id
-  - usuarios,id, analytics, usuario_id
-  - usuarios,id, chat, usuario_id
-  - projetos,responsavel_id, usuarios,id
-
-
-```
+@layer components {  
+  @keyframes move {  
+    from {  
+      transform: translateY(100%);  
+    }  
+    to {  
+      transform: translateY(-100%);  
+    }  
+  }  
+  
+  .animated-button {  
+    --color: #fff;  
+    --top: 0;  
+    --side: 0;  
+    --bottom: 0;  
+  
+    position: relative;  
+  
+    .top,  
+    .bottom {  
+      position: absolute;  
+      overflow: hidden;  
+      right: calc(var(--side) * -1);  
+      left: calc(var(--side) * -1);  
+      background-size: 100% 2px;  
+      pointer-events: none;  
+    }  
+  
+    .top {  
+      top: calc(var(--top) * -1);  
+      bottom: 50%;  
+      background-image: linear-gradient(to top, transparent 50%, var(--color) 50%);  
+      background-position: left bottom;  
+      mask-image: radial-gradient(50% 90% at 50% 100%, black, transparent);  
+  
+      &::before {  
+        content: '';  
+        position: absolute;  
+        top: calc(100% - 4px);  
+        left: 0;  
+        width: 100%;  
+        transform: translateX(100%);  
+        height: calc(100% - var(--top) + var(--bottom));  
+        background-image: linear-gradient(to bottom, var(--color) 0, transparent 4px);  
+        background-position: left top;  
+        animation: move 5s linear infinite;  
+      }  
+    }  
+  
+    .bottom {  
+      top: 50%;  
+      bottom: calc(var(--bottom) * -1);  
+      background-image: linear-gradient(to bottom, var(--color) 50%, transparent 50%);  
+      background-position: left top;  
+      mask-image: radial-gradient(50% 90% at 50% 0%, black, transparent);  
+  
+      &::before {  
+        content: '';  
+        position: absolute;  
+        transform: translateX(100%);  
+        top: 0;  
+        left: 0;  
+        width: 100%;  
+        height: 100%;  
+        background-image: linear-gradient(to bottom, var(--color) 0, transparent 4px);  
+        background-position: left top;  
+        animation: move 5s linear infinite;  
+      }  
+    }  
+  }  
+}

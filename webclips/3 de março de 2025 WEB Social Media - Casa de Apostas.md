@@ -72,7 +72,7 @@ Criativos para Anúncios 1080x1920
 ![](https://mir-s3-cdn-cf.behance.net/project_modules/disp_webp/f7132b215727483.6772901572532.png)
 
 ![](https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/63bd15215727483.677290145ae97.png)
-
+2
 ![](https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/43711f215727483.677290145a09d.png)
 
 ![](https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/6d6dc2215727483.677290145a7a1.png)

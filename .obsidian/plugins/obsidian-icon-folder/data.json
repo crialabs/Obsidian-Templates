@@ -4,7 +4,7 @@
     "iconPacksPath": ".obsidian/icons",
     "fontSize": 16,
     "emojiStyle": "native",
-    "iconColor": null,
+    "iconColor": "#bbff00",
     "recentlyUsedIcons": [
       "🖋",
       "✏",
@@ -20,9 +20,9 @@
       "bottom": 0,
       "left": 0
     },
-    "iconInTabsEnabled": false,
-    "iconInTitleEnabled": false,
-    "iconInFrontmatterEnabled": false,
+    "iconInTabsEnabled": true,
+    "iconInTitleEnabled": true,
+    "iconInFrontmatterEnabled": true,
     "iconsBackgroundCheckEnabled": true,
     "iconsInNotesEnabled": true,
     "iconsInLinksEnabled": true,
@@ -31,8 +31,8 @@
     "iconInFrontmatterFieldName": "icon",
     "iconColorInFrontmatterFieldName": "iconColor",
     "debugMode": false,
-    "lucideIconPackType": "native",
-    "useInternalPlugins": false
+    "lucideIconPackType": "custom",
+    "useInternalPlugins": true
   },
   "Personal": "LiUserRoundCog",
   "Journal": "📖",

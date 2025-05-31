@@ -1,5 +1,10 @@
 {
-  "cssTheme": "Obsidianite",
+  "cssTheme": "Blue Topaz",
   "accentColor": "",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "nativeMenus": true,
+  "enabledCssSnippets": [
+    "supercharged-links-gen",
+    "custom-admonitions.186ca8"
+  ]
 }

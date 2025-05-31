@@ -4,7 +4,7 @@
 		{"id":"17a94bf84c6c7efe","type":"text","text":"3_Permanent Notes","x":-60,"y":-200,"width":240,"height":50},
 		{"id":"f581441beffd8bb7","type":"text","text":"2_Literature Notes","x":-60,"y":-120,"width":240,"height":50},
 		{"id":"93262888baefafed","type":"text","text":"4_Project Notes","x":-60,"y":-280,"width":240,"height":50},
-		{"id":"944468ba5ad5a71c","type":"text","text":"5_Structure Notes","x":280,"y":-200,"width":240,"height":50},
+		{"id":"944468ba5ad5a71c","type":"text","text":"5_Structure Notes","x":280,"y":-200,"width":240,"height":50,"color":"3"},
 		{"id":"faa1b734b72faaa4","type":"text","text":"**Source**","x":-60,"y":-40,"width":240,"height":50,"color":"#b3b3b3"},
 		{"id":"4fc341ccfe5d2054","type":"text","text":"**Target**","x":-60,"y":-360,"width":240,"height":50,"color":"#b3b3b3"}
 	],
