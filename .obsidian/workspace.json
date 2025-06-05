@@ -8,27 +8,39 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dd893e3b0e4cd810",
-            "type": "leaf",
-            "state": {
-              "type": "mk-space",
-              "state": {
-                "path": "PromptsSnipeds"
-              },
-              "icon": "lucide-file",
-              "title": "PromptsSnipeds"
-            }
-          },
-          {
             "id": "9aad174a8c3ff532",
             "type": "leaf",
             "state": {
               "type": "image",
               "state": {
-                "file": "c0b178acad43e24c0c6a8fadfd8a0704_MD5.png"
+                "file": "Assets/0ab9a1e4fed07729cd3258c667039e8a_MD5.jpg"
               },
               "icon": "lucide-image",
-              "title": "c0b178acad43e24c0c6a8fadfd8a0704_MD5"
+              "title": "0ab9a1e4fed07729cd3258c667039e8a_MD5"
+            }
+          },
+          {
+            "id": "67f457850dfb0dd5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Russo.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Russo"
             }
           },
           {
@@ -40,10 +52,119 @@
                 "path": "/"
               },
               "icon": "lucide-file",
-              "title": "Obsidian-Templates"
+              "title": "Plugin desativado"
+            }
+          },
+          {
+            "id": "7da2254b4a6f8756",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Home"
+            }
+          },
+          {
+            "id": "a6c99d6eb59ac712",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "webclips/0b5f1db57dbab05380cb8f4648c7844c_MD5.png"
+              },
+              "icon": "lucide-image",
+              "title": "0b5f1db57dbab05380cb8f4648c7844c_MD5"
+            }
+          },
+          {
+            "id": "95321915d3d3b1ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Funil OrbitGamming.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Funil OrbitGamming"
+            }
+          },
+          {
+            "id": "eebbea4bb6170432",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sem título 1.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Sem título 1"
+            }
+          },
+          {
+            "id": "831eda5454b7d451",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Biblioteca de Prompts Visuais – Orbit Gamming & AfiliaRev.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Biblioteca de Prompts Visuais – Orbit Gamming & AfiliaRev"
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -97,17 +218,16 @@
             }
           },
           {
-            "id": "0d48ca534bf7c98a",
+            "id": "33bf468efec9e5cc",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
               "state": {},
-              "icon": "layout-grid",
-              "title": "Navigator"
+              "icon": "lucide-file",
+              "title": "Plugin desativado"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -189,13 +309,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PromptsSnipeds/PromptsSnipeds.md",
+                "file": "Biblioteca de Prompts Visuais – Orbit Gamming & AfiliaRev.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de PromptsSnipeds"
+              "title": "Sumário de Biblioteca de Prompts Visuais – Orbit Gamming & AfiliaRev"
             }
           },
           {
@@ -209,13 +329,13 @@
             }
           },
           {
-            "id": "c18dd745f4cfc24f",
+            "id": "32740779ef5898d4",
             "type": "leaf",
             "state": {
-              "type": "NodeFlowView",
+              "type": "git-view",
               "state": {},
-              "icon": "workflow",
-              "title": "NodeFlowView"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -223,7 +343,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 434.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -236,59 +356,57 @@
       "markdown-importer:Abrir importador Markdown": false,
       "audio-recorder:Começar/parar a gravação de áudio": false,
       "workspaces:Gerenciar leiautes da área de trabalho": false,
-      "omnisearch:Omnisearch": false,
       "obsidian-importer:Open Importer": false,
       "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
       "copilot:Open Copilot Chat": false,
-      "dbfolder:Create a new database table": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-kanban:Criar um novo quadro": false,
-      "vscode-editor:Create Code File": false,
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "0ea26d6277d2b62d",
+  "active": "831eda5454b7d451",
   "lastOpenFiles": [
-    "PromptsSnipeds/Untitled 1.md",
-    "PromptsSnipeds/Sem título 1.md",
-    "PromptsSnipeds/Untitled.md",
-    "PromptsSnipeds/Image.md",
-    "Vault.md",
-    "PromptsSnipeds/PromptsSnipeds.md",
-    "insights.md",
-    "piecesdb.json",
-    "PromptsSnipeds/Sem título.md",
-    "6a6ddef3bba0e0d8b2d0d52afed71c5c_MD5.webp",
-    "c0b178acad43e24c0c6a8fadfd8a0704_MD5.png",
-    "b44ca4f686123d319e0f5d4c78671f6f_MD5.png",
-    "a66af4775a73afdaf7cbdf8a572ac063_MD5.jpg",
-    "4704999a3c3fafbf0af6564664a97e22_MD5.png",
-    "3553a57c918725f15956572b59c87235_MD5.jpg",
-    "546d36e9355dba2fcefc4acd59fa32bc_MD5.jpg",
-    "70ae0463495c7decfa37bed8afc585df_MD5.png",
-    "8bcca0d756f3e320c85aae1d3694b109_MD5.webp",
-    "4a6f202f9723d6d720a2ee58c3c6ee64_MD5.webp",
-    "PromptsSnipeds/Gemini[Funnel-email].md",
-    "PromptsSnipeds/code-analyst.md",
-    "webclips/webclips.md",
-    "Banners  Cassino Online - Paulo Tierre.md",
-    "Sem título 2.canvas",
+    "Sem título 1.md",
+    "Biblioteca de Prompts Visuais – Orbit Gamming & AfiliaRev.md",
+    "Sem título 7.md",
     "Funil OrbitGamming.md",
-    "Sem título 6.md",
     "Sem título.md",
-    "webclips/WEB Game PSD, High Quality Free PSD Templates for Download  Freepik 2.md",
-    "webclips/WEB Panda Photos - Download Free High-Quality Pictures  Freepik.md",
-    "webclips/WEB 🛩AVİATRİX Kayıplarınıza Özel TAM  %2️⃣5️⃣ Kayıp Bonus Fırsatı.md",
-    "Pinterest/Banners  Cassino Online - Paulo Tierre.md",
-    "webclips/17 de maio de 2025 WEB Banners  Cassino Online - Paulo Tierre.md",
-    "webclips/asdas.md",
-    "Pinterest/Banners Cassino Online - Genneras ㅤ 1.md",
-    "webclips/19 de março de 2025 WEB Banners Cassino Online - Genneras ㅤ.md",
-    "Pinterest/Banners Cassino Online - Genneras ㅤ.md",
-    "webclips/26 de janeiro de 2025 WEB 2D Casino Visual Gambling  slot, banner, art.md",
-    "webclips/WEB Game PSD, High Quality Free PSD Templates for Download  Freepik.md",
-    "Pinterest",
+    "Sem título 5.md",
+    "Sem título 6.md",
+    "Sem título 4.md",
+    "Sem título 2.md",
+    "Schema Automacao.md",
+    "Russo.md",
+    "Home.md",
+    "Hono -api.md",
+    "insights.md",
+    "Vault.md",
+    "ES.md",
+    "webclips/d5014260581b55e554178704c68ad087_MD5.png",
+    "webclips/0b5f1db57dbab05380cb8f4648c7844c_MD5.png",
+    "webclips/a04bb7eeb4319363879d13aad9ef8b3d_MD5.png",
+    "fc347223eace57747758bfdbae528328_MD5.png",
+    "webclips/98a29a33807d43028bbd654f9568f98e_MD5.png",
+    "webclips/0d5ccbf9935bfe0209bcc5698ae8d4a7_MD5.png",
+    "webclips/804b265a1d2cec13d076b3ab096cd997_MD5.png",
+    "webclips/11006bdd7047089db3ab6bc200e60a10_MD5.png",
+    "webclips/aae3a506b9455d9ce08ed901196fd48e_MD5.png",
+    "webclips/6a369b212ff019876fccb27527d828e9_MD5.png",
+    "LICENSE.md",
+    "Sem título 1.canvas",
+    "Sem título 3.md",
+    "PromptsSnipeds/PromptsSnipeds.md",
+    "PromptsSnipeds/Copywriter.md",
+    "Automacoes/Advertising Campaign.md",
+    "Automacoes/Automacoes.md",
+    "4_Project/Experts/Experts.md",
+    "4_Project/Experts/Onboarding.md",
+    "4_Project/Experts/Schema.md",
+    "4_Project/Obsidian Starter Kit/_MOC - Obsidian Starter Kit.md",
+    "webclips/images",
     "Automacoes/Automation.json",
+    "piecesdb.json",
+    "Sem título 2.canvas",
+    "Pinterest",
     "5_Structure/Canvases/About - 1_Fleeting Notes.canvas",
     "Tags/#webclip+unread",
     "Automacoes",

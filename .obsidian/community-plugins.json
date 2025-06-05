@@ -8,7 +8,6 @@
   "cmdr",
   "any-block",
   "dataview",
-  "node-flow",
   "obsidian-local-images-plus",
   "obsidian-banners",
   "editing-toolbar",
@@ -21,7 +20,6 @@
   "obsidian-git",
   "obsidian-front-matter-title-plugin",
   "obsidian-style-settings",
-  "obsidian-kanban",
   "obsidian-hover-editor",
   "execute-code",
   "obsidian-enhancing-export",
@@ -31,6 +29,6 @@
   "obsidian-state-switcher",
   "cm-editor-syntax-highlight-obsidian",
   "mysnippets-plugin",
-  "vscode-editor",
-  "obsidian-wordpress"
+  "obsidian-wordpress",
+  "obsidian-tasks-plugin"
 ]
